@@ -53,42 +53,38 @@ function Reviews() {
                     <img className="companies-img" alt="max" src={max} />
                     <img className="companies-img" alt="360deg" src={deg360} />
                 </div>
-                <div className="review">
+                {/*Small screen*/}
+                <div className="review d-md-none">
                     <img alt="quote" src={quote} />
                     <h4>{reviewTitle}</h4>
                     <p>
-                        {reviewBody}
+                        {/* reviewBody - because on the small screen, the review replaces itself*/}
+                        {reviewBody} 
                         <br />
                         -
                         {' '}
                         {reviewAuthor}
                     </p>
                 </div>
-                <div className="review d-none">
-                    <img alt="quote" src={quote} />
-                    <h4>Worth it</h4>
-                    <p>
-                        Omozino leaves no stone unturned when it comes to the analytics of people, talent and how it influences their performance. Her understanding of the subject matter is rare and refreshing, every time I listen there always something actionable to take away. 
-                        - Alice, Business manager
-                    </p>
+                {/*Large screen*/}
+                <div className="d-flex justify-content-between p-5">
+                {
+                    reviews.map((review) => (
+                        <div className="review d-md-flex d-none">
+                            <img alt="quote" src={quote} />
+                            <h4>{review.title}</h4>
+                            <p>
+                                {review.body}
+                                <br />
+                                -
+                                {' '}
+                                {review.author}
+                            </p>
+                        </div>
+                    ))
+                }
                 </div>
-                <div className="review d-none">
-                    <img alt="quote" src={quote} />
-                    <h4>Worth it</h4>
-                    <p>
-                        Omozino leaves no stone unturned when it comes to the analytics of people, talent and how it influences their performance. Her understanding of the subject matter is rare and refreshing, every time I listen there always something actionable to take away. 
-                        - Alice, Business manager
-                    </p>
-                </div>
-                <div className="review d-none">
-                    <img alt="quote" src={quote} />
-                    <h4>Worth it</h4>
-                    <p>
-                        Omozino leaves no stone unturned when it comes to the analytics of people, talent and how it influences their performance. Her understanding of the subject matter is rare and refreshing, every time I listen there always something actionable to take away. 
-                        - Alice, Business manager
-                    </p>
-                </div>
-                <div className="d-flex gap-5">
+                <div className="gap-5 review-control-buttons">
                     <button
                         className="review-control-button"
                         onClick={() => {

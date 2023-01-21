@@ -46,6 +46,10 @@
     font-weight: bold;
 }
 
+.review-control-buttons {
+    display: flex;
+}
+
 .review-control-button {
     color: white;
     background: none;
@@ -56,4 +60,13 @@
 
 .review-control-button:hover, .review-control-button:focus {
     background: linear-gradient(106.44deg, #6C36B2 23.97%, #3C70DD 193.77%);
+}
+
+@media (min-width: 768px) {
+    .review-control-buttons {
+        display: none;
+    }
+    .review {
+        width: 30%;
+    }
 }

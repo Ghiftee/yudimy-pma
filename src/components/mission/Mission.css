@@ -10,3 +10,30 @@
     font-size: 16px;
     line-height: 20.11px;
 }
+
+.mission-section > img {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .mission-section {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    .mission-section h3 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .mission-section p {
+        font-size: 24px;
+        line-height: 30.17px;
+    }
+
+    .mission-section > img {
+        width: 40%;
+        height: 40%;
+    }
+}
