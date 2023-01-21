@@ -1,16 +1,17 @@
-
-nav {
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+@font-face {
+    font-family: BRFirma;
+    src: url(assets/fonts/br_firma_medium.otf);
 }
 
-
-#logo {
-    height: 30px;
+body {
+    --color-purple: #474099;
+    --gradient-1: linear-gradient(273.03deg, #6C36B2 12.61%, #3C70DD 100%);
 }
 
-#hamburger {
-    height: 15px;
+/* Colors */
+.purple {
+    color: var(--color-purple);
+}
+.color-gradient-1 {
+    background: var(--gradient-1)
 }
