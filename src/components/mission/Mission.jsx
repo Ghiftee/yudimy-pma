@@ -4,7 +4,7 @@ import mission from '../../assets/images/meeting.png'
 
 function Mission() {
   return (
-    <section className="p-4">
+    <section className="mission-section p-4">
         <img className="w-100 p-2 mb-5" alt="Meeting" src={mission} />
         <h3 className="mb-5">Unlock the power of people for a stree-free work environment</h3>
         <p>

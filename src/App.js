@@ -3,6 +3,7 @@ import './App.css'
 import Intro from './components/intro/Intro'
 import Mission from './components/mission/Mission';
 import Navbar from './components/navbar/Navbar';
+import Products from './components/products/Products';
 
 export class App extends React.Component {
   render() {
@@ -13,6 +14,7 @@ export class App extends React.Component {
             </header>
             <Intro />
             <Mission />
+            <Products />
         </>
     )
   }

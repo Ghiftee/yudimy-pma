@@ -1,0 +1,12 @@
+.mission-section h3 {
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.mission-section p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.11px;
+}
