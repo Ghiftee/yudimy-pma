@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
 import Intro from './components/intro/Intro'
+import Mission from './components/mission/Mission';
 import Navbar from './components/navbar/Navbar';
 
 export class App extends React.Component {
@@ -11,6 +12,7 @@ export class App extends React.Component {
                 <Navbar />
             </header>
             <Intro />
+            <Mission />
         </>
     )
   }
