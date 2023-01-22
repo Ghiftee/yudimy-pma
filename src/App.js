@@ -5,6 +5,7 @@ import Mission from './components/mission/Mission';
 import Navbar from './components/navbar/Navbar';
 import Products from './components/products/Products';
 import Reviews from './components/reviews/Reviews';
+import Topics from './components/topics/Topics';
 
 export class App extends React.Component {
   render() {
@@ -17,6 +18,7 @@ export class App extends React.Component {
             <Mission />
             <Products />
             <Reviews />
+            <Topics />
         </>
     )
   }

@@ -67,7 +67,7 @@ function Reviews() {
                     </p>
                 </div>
                 {/*Large screen*/}
-                <div className="d-flex justify-content-between p-5">
+                <div id="large-screen-reviews" className="justify-content-between p-5">
                 {
                     reviews.map((review) => (
                         <div className="review d-md-flex d-none">

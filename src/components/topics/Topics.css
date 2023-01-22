@@ -1,0 +1,56 @@
+#topics-section {
+    padding: 30px;
+}
+
+#topics-section > h2 {
+    margin: 30px 0;
+    width: 242px;
+    height: 93.54px;
+    text-decoration: underline;
+    font-weight: 300;
+    font-size: 36px;
+    letter-spacing: 0.5px;
+    line-height: 40px;
+}
+
+.topic-boxes{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.topic-boxes h4{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25.14px;
+    color: #181B32;
+    margin: 30px 10px;
+}
+
+.topic-boxes p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.11px;
+    margin: 0 15px;
+}
+
+.topic-box-comp {
+    border-radius: 24px;
+    height: 365.22px;
+}
+
+.bg-1{
+    background-color: #FBD44B;
+}
+
+.bg-2{
+    background-color: #FCD4BA;
+}
+
+.bg-3{
+    background-color: #C6EAFF;
+}
+
+.bg-4{
+    background-color: #B3F6E7;
+}

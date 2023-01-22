@@ -1,12 +1,12 @@
 @font-face {
-    font-family: BRFirma;
+    font-family: 'BR Firma';
     src: url(assets/fonts/br_firma_medium.otf);
 }
 
 body {
     --color-purple: #474099;
     --gradient-1: linear-gradient(273.03deg, #6C36B2 12.61%, #3C70DD 100%);
-    font-family: 'BRFirma', Arial, Helvetica, sans-serif;
+    font-family: 'BR Firma', Arial, Helvetica, sans-serif;
 }
 
 /* Colors */

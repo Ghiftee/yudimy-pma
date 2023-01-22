@@ -46,6 +46,10 @@
     font-weight: bold;
 }
 
+#large-screen-reviews {
+    display: none;
+}
+
 .review-control-buttons {
     display: flex;
 }
@@ -68,5 +72,8 @@
     }
     .review {
         width: 30%;
+    }
+    #large-screen-reviews {
+        display: flex;
     }
 }
