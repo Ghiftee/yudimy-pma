@@ -1,0 +1,34 @@
+
+nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.25);
+}
+
+#logo {
+    height: 30px;
+}
+
+#hamburger {
+    height: 15px;
+}
+
+#navbar {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    nav {
+        border: 1px solid rgba(33, 123, 244, 0.1);
+    }
+
+    #hamburger {
+        display:  none;
+    }
+
+    #navbar {
+        display: flex;
+    }
+}
