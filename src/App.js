@@ -6,6 +6,7 @@ import Navbar from './components/navbar/Navbar';
 import Products from './components/products/Products';
 import Reviews from './components/reviews/Reviews';
 import Topics from './components/topics/Topics';
+import Payment from './components/payment/Payment';
 
 export class App extends React.Component {
   render() {
@@ -19,6 +20,7 @@ export class App extends React.Component {
             <Products />
             <Reviews />
             <Topics />
+            <Payment />
         </>
     )
   }

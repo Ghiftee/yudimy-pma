@@ -11,6 +11,7 @@
     font-size: 36px;
     letter-spacing: 0.5px;
     line-height: 40px;
+    color: var(--primaryColor);
 }
 
 .topic-boxes{
@@ -25,6 +26,7 @@
     line-height: 25.14px;
     color: #181B32;
     margin: 30px 10px;
+    color: var(--primaryColor);
 }
 
 .topic-boxes p {
@@ -32,6 +34,7 @@
     font-size: 16px;
     line-height: 20.11px;
     margin: 0 15px;
+    color: var(--primaryColor);
 }
 
 .topic-box-comp {
