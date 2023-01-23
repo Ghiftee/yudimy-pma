@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/yudimy-pma/static/css/main.aca028f4.css",
+    "main.js": "/yudimy-pma/static/js/main.342c272d.js",
+    "static/media/meeting.png": "/yudimy-pma/static/media/meeting.003dad8ff933e3b7e836.png",
+    "static/media/br_firma_medium.otf": "/yudimy-pma/static/media/br_firma_medium.517fb8fe87dd9eeabd71.otf",
+    "static/media/none.png": "/yudimy-pma/static/media/none.408bda22225392116a25.png",
+    "static/media/group-image.png": "/yudimy-pma/static/media/group-image.65c1b43d98f04338035a.png",
+    "index.html": "/yudimy-pma/index.html",
+    "main.aca028f4.css.map": "/yudimy-pma/static/css/main.aca028f4.css.map",
+    "main.342c272d.js.map": "/yudimy-pma/static/js/main.342c272d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aca028f4.css",
+    "static/js/main.342c272d.js"
+  ]
+}
